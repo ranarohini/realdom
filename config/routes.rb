@@ -1,4 +1,7 @@
 Realdom::Application.routes.draw do
+  #get 'tenants/index' - default one
+  get 'tenants', to: 'tenants#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
